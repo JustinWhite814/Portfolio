@@ -1,7 +1,7 @@
 @import '../../global.scss';
 
 .intro{
-  background-color: white;
+  // background-color: white;
   display: flex;
 
   @include mobile{
@@ -13,28 +13,27 @@
     overflow: hidden;
 
     .imgContainer{
-      width: 1000px;
-      height: 1000px;
-      // background-color: beige;
+      width: 50em;
       // border-radius: 100%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
-      height: 95%;
+      height: 60rem;
 
       @include mobile{
         align-items: flex-start;
-        padding-top: 20%
+        padding-top: 15%
       }
     }
     img{
-      height: 80%;
+      height: 45rem;
       border-radius: 50%;
+      width: 40rem;
       // padding-bottom: 10%
       @include mobile{
-        height: 50%;
-      
+        height: 10rem;
+        width: 9rem
       }
     };
   }
@@ -75,7 +74,7 @@
 
         span{
          font-size: inherit;
-         background: -webkit-linear-gradient(white,blue, black);
+         background: -webkit-linear-gradient( black, black, white);
          -webkit-background-clip: text;
          background-clip: text;
          -webkit-text-fill-color: transparent;

@@ -7,11 +7,11 @@ export default function navbar({menuOpen, setMenuOpen}) {
       <div className="wrapper">
         <div className="left">
           <a href='#intro' className='logo'>
-            genius.
+            
           </a>
           <div className="itemContainer">
               <Person className='icon'/>
-              <span>213 3213 2312</span>
+              <span>347 552 2593</span>
           </div>
        
         <div className="itemContainer">

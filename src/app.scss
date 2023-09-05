@@ -1,9 +1,11 @@
 .app{
+  
+  
   height: 100vh;
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: salmon;
+    background: linear-gradient(45deg, black, white,  black);
     position: relative;
     top: 70px;
     scroll-behavior: smooth;
