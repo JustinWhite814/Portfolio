@@ -38,7 +38,7 @@ export default function Testimonials() {
         <h1>Testimonials</h1>
         <div className="container">
           {data.map((d => 
-          <div className={d.featured ? "card featured" : 'card'}>
+          <div key = {d.id} className={d.featured ? "card featured" : 'card'}>
             <div className="top">
               <img src="assets/right-arrow.png" alt="" className='left' />
               <img

@@ -55,7 +55,8 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <ul>
         {list.map(listItem=>(
-          <PortfolioList 
+          <PortfolioList
+          key={listItem.id} 
           title={listItem.title}
           active={selected === listItem.id}
           setSelected={setSelected}
@@ -65,7 +66,8 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d)=>(
-          <div className="item">
+        
+          <div key={d.id} className="item">
           <img src={d.img} alt="sheesh" />
           <h3>{d.title}</h3>
         </div>
