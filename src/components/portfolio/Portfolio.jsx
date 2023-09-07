@@ -4,46 +4,46 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio  } from "../../data";
 export default function Portfolio() {
   
-  const [selected, setSelected] = useState('featured')
+  const [selected, setSelected] = useState('MERN')
   const [data, setData] = useState([])
   //we will map through this in the UL below
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "MERN",
+      title: "MERN",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "React",
+      title: "React",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "DHTML",
+      title: "DHTML",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "Django",
+      title: "Django",
     },
     {
-      id: "content",
-      title: "Content",
+      id: "Python",
+      title: "Python",
     },
   ];
   useEffect(()=>{
     switch(selected){
-      case 'featured':
+      case 'MERN':
         setData(featuredPortfolio)
         break;
-      case 'web':
+      case 'React':
         setData(webPortfolio)
         break;
-      case 'mobile':
+      case 'DHTML':
         setData(mobilePortfolio)
         break;
-      case 'design':
+      case 'Django':
         setData(designPortfolio)
         break;
-      case 'content':
+      case 'Python':
         setData(contentPortfolio)
         break;
         default:

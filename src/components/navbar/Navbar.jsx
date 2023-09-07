@@ -1,5 +1,6 @@
 import './navbar.scss'
 import {Person, Mail} from '@material-ui/icons'
+
 export default function navbar({menuOpen, setMenuOpen}) {
   return (
                               //if the menu is open, set the class to active
@@ -9,14 +10,13 @@ export default function navbar({menuOpen, setMenuOpen}) {
           <a href='#intro' className='logo'>
             
           </a>
-          <div className="itemContainer">
-              <Person className='icon'/>
-              <span>347 552 2593</span>
-          </div>
+          {/* <div className="itemContainer">
+              {/* <Person className='icon'/>
+              <span>347 552 2593</span> */}
+          {/* </div>  */}
        
         <div className="itemContainer">
-            <Mail className='icon'/>
-            <span>juswhite814@gmail.com</span>
+            <span><img src='/assets/JMWLogo.png'alt='bleh'/></span>
         </div>
         </div>
         <div className="right">

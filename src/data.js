@@ -9,7 +9,7 @@ export const featuredPortfolio = [
     id: 2,
     title: "Wuphf Tweeter",
     img:
-      "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+      "https://user-images.githubusercontent.com/80619820/119146886-14274a00-ba19-11eb-90b2-a481bef5a657.png",
   },
   {
     id: 3,
@@ -21,13 +21,13 @@ export const featuredPortfolio = [
     id: 4,
     title: "Recipe Finder",
     img:
-      "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      "https://user-images.githubusercontent.com/37119622/116730971-22a0b980-a9b7-11eb-94af-891672957970.png",
   },
   {
     id: 5,
     title: "GOT Trivia",
     img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      "https://user-images.githubusercontent.com/37119622/114566181-058e8b80-9c40-11eb-9039-71a58270348b.png",
   },
   {
     id: 6,
