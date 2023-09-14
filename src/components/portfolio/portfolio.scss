@@ -1,10 +1,13 @@
 @import "../../global.scss";
-
+body {
+  overflow-y: hidden;
+}
 .portfolio {
   // background-color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   h1{
     font-size: 50px;
 
@@ -48,6 +51,7 @@
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
+      overflow: hidden;
       @include mobile {
         width: 130px;
         height: 100px;
@@ -63,6 +67,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 1;
+        
       }
       
       &:hover{
@@ -71,6 +76,7 @@
         img{
           opacity: 0.2;
           z-index: 0;
+          
         }
       }
     }

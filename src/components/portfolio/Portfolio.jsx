@@ -68,7 +68,7 @@ export default function Portfolio() {
         {data.map((d)=>(
         
           <div key={d.id} className="item">
-          <img src={d.img} alt="sheesh" />
+          <a href={d.link}><img src={d.img} alt="sheesh" /></a>
           <h3>{d.title}</h3>
         </div>
         ))}

@@ -4,36 +4,42 @@ export const featuredPortfolio = [
     title: "Joan's Jewelry",
     img:
       "https://i.imgur.com/abICyL6.png",
+    link: 'https://github.com/JustinWhite814/joanns-jewelry-frontend/tree/master'
   },
   {
     id: 2,
     title: "Wuphf Tweeter",
     img:
       "https://user-images.githubusercontent.com/80619820/119146886-14274a00-ba19-11eb-90b2-a481bef5a657.png",
+    link: 'https://github.com/JustinWhite814/wuphf/tree/main'
   },
   {
     id: 3,
     title: "GCC Demo",
     img:
       "https://i.imgur.com/dUg60p7.png",
+    link: 'https://github.com/JustinWhite814/coding-demo/tree/main'
   },
   {
     id: 4,
     title: "Recipe Finder",
     img:
       "https://user-images.githubusercontent.com/37119622/116730971-22a0b980-a9b7-11eb-94af-891672957970.png",
+    link: 'https://github.com/JustinWhite814/recipes'  
   },
   {
     id: 5,
     title: "GOT Trivia",
     img:
       "https://user-images.githubusercontent.com/37119622/114566181-058e8b80-9c40-11eb-9039-71a58270348b.png",
+    link: 'https://github.com/JustinWhite814/GOT-Trivia/tree/main'
   },
   {
     id: 6,
     title: "Teacher Portfolio",
     img:
       "https://i.imgur.com/hycPYsQ.png",
+    link: 'https://github.com/JustinWhite814/theKindnessClass'
   },
 ];
 
@@ -42,6 +48,7 @@ export const webPortfolio = [
     id: 1,
     title: "Age Calculator",
     img: "https://i.imgur.com/xuFyjE9.png",
+    link: 'https://github.com/JustinWhite814/ageCalculator'
   },
   {
     id: 2,
