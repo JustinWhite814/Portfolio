@@ -54,11 +54,13 @@ export const webPortfolio = [
     id: 2,
     title: "RBG Matching Game",
     img: "https://i.imgur.com/Vm2OaGk.png",
+    link: 'https://github.com/JustinWhite814/rgb-matchgame'
   },
   {
     id: 3,
     title: "TodoList",
     img: "https://i.imgur.com/7jXCugK.png",
+    link: 'https://github.com/JustinWhite814/todolist'
   },
   {
     id: 4,
