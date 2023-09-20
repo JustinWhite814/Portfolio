@@ -6,7 +6,7 @@
 
 > Welcome to My Portfolio. This one is a wild one. Simply, it's a showcase of both projects I have done and projects I will be uploading soon. It uses React and SASS. 
 
-[Live Link](https://kindness-teacher-demo.herokuapp.com/)
+[Live Link](coming soon)
 
 ## Installation Instructions
 * Fork this repository
@@ -16,27 +16,19 @@
 * ```npm start``` to run it
 
 ## User Stories
-- As a Hiring Manager I would like 
-
-## Screen shots
-#### Landing
-![Landing](./public/images/HomepageSS.png)
-
-#### Unit
-![Unit](./public/images/SubjectSS.png)
-
-#### Projects
-![Dojo](./public/images/DojoSS.png)
+- As a Hiring Manager I would like to see what this candidate has done
+- As a client I would like to see how I can use this Developer
+- As a peer I would like ot see how he styles his portfolio
 
 ## Minimun Viable Product
 
-* Demo website to access classroom information
-* View calendars/unit schedules
+* Demonstrate high quality skill in portfolio creation
+* Showcase projects and works
+* Highlight featured Projects
 
 ## Technologies Used
 
-* JavaScript
-* Node.js
-* jQuery
+* REACT
+* SASS
 * HTML
 * CSS
