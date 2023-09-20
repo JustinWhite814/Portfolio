@@ -52,6 +52,7 @@ body {
       transition: all .5s ease;
       cursor: pointer;
       overflow: hidden;
+
       @include mobile {
         width: 130px;
         height: 100px;
@@ -60,6 +61,7 @@ body {
       h3{
         position: absolute;
         font-size: 20px;
+        display: none;
       }
       
       img{
@@ -69,14 +71,15 @@ body {
         z-index: 1;
         
       }
-      
       &:hover{
         background-color: $mainColor;
         
         img{
           opacity: 0.2;
           z-index: 0;
-          
+        }
+        h3 {
+          display: block;
         }
       }
     }
