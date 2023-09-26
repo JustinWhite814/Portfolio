@@ -24,10 +24,13 @@ export default function Intro() {
           <h2>Hello there, My name is</h2>
           <h1>Justin</h1>
           <h3><span ref={textRef}></span></h3>
+          <h4>Socials</h4>
         </div>
+   
         <a href="#portfolio">
           <img src='assets/down.png' alt='justin'/>
         </a>
+
       </div>
     </div>
   )

@@ -6,21 +6,21 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+      icon: "./assets/pokemon.png",
+      title: "Kanto Pokedex",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "JavaScript Pokedex based on the Kanto region. ",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "https://i.imgur.com/5XUXq8J.png",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "./assets/aestheticDomain.png",
+      title: "Aesthetic Domain",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "MERN Stack Art Gallery with Crud And an External API, shoutout to Scott Draper! ",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "https://i.imgur.com/vpDqhAS.png",
     },
     {
       id: "3",
@@ -52,11 +52,11 @@ export default function Works() {
             <p>
             {d.desc}
             </p>
-            <span>Projects</span>
+            <span>Featured</span>
           </div>
         </div>
         <div className="right">
-          <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt="" />
+          <img src={d.img} alt="" />
         </div>
        </div>
        </div>
