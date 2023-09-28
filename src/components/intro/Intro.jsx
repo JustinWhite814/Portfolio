@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react'
 export default function Intro() {
   // use Ref is a psuedo version of document.querySelector
   const textRef = useRef() 
-
   useEffect(()=>{
     init(textRef.current, {
        showCursor: true,
@@ -12,6 +11,7 @@ export default function Intro() {
        backSpeed: 60,
        strings: ['Web Developer','Software Engineer', 'Problem Solver' ] })
   },[]) 
+  
   return (
     <div className='intro' id='intro'>
       <div className="left">
@@ -24,13 +24,15 @@ export default function Intro() {
           <h2>Hello there, My name is</h2>
           <h1>Justin</h1>
           <h3><span ref={textRef}></span></h3>
-          <h4>Socials</h4>
+          <div className='iconContainer' >
+            <a href='https://www.linkedin.com/in/juswhite814/'><img className='socialIcon' src="assets/LinkedInIcon.png" alt='bleh'/></a>
+            <a href='https://github.com/JustinWhite814'><img className='socialIcon' src="assets/github.png" alt='bleh'/></a>
+            <a href='https://twitter.com/Juswhite814' ><img className='socialIcon' src="assets/twitterIcon.png" alt='bleh'/></a>
+          </div>
         </div>
-   
-        <a href="#portfolio">
+        <a className='blink' href="#portfolio">
           <img src='assets/down.png' alt='justin'/>
         </a>
-
       </div>
     </div>
   )

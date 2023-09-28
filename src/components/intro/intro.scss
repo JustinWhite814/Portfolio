@@ -98,8 +98,24 @@
           }
         }
       }
+      .iconContainer {
+        padding-top: 10px;
+        // margin-left: 50px;
+        @include mobile {
+          margin: 0 auto;
+        }
+      }
+      .socialIcon {
+        padding-top: 2px;
+        padding: 5px;
+        width: 35px;
+        @include mobile {
+          padding-top: 10px;
+          width: 30px;
+        }
+      }
     }
-    a{
+    .blink{
       position: absolute;
       bottom: 10px;
       left: 40%;

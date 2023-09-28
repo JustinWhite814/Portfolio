@@ -11,7 +11,7 @@ export default function Contact() {
 
   const [state, handleSubmit] = useForm("xknkbjkz");
   if (state.succeeded) {
-      return <p>Thanks for Submitting your request</p>;
+      return <span>Thanks for Submitting your request</span>;
   }
   return (
     <div className='contact' id='contact'>

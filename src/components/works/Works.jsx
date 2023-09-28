@@ -15,6 +15,15 @@ export default function Works() {
     },
     {
       id: "2",
+      icon: "./assets/fureverFriends.png",
+      title: "Furever Friends",
+      desc:
+        "MEN stack Application using EJS for rendering! Two related models as well! ",
+      img:
+        "https://i.imgur.com/bBm6MJs.png",
+    },
+    {
+      id: "3",
       icon: "./assets/aestheticDomain.png",
       title: "Aesthetic Domain",
       desc:
@@ -22,15 +31,7 @@ export default function Works() {
       img:
         "https://i.imgur.com/vpDqhAS.png",
     },
-    {
-      id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
+    
   ];
   const handleClick = (direction) => {
     direction === 'left'

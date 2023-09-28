@@ -3,34 +3,34 @@ import './testimonials.scss'
 export default function Testimonials() {
   const data = [{
     id: 1,
-    name: "Tom Durden",
-    title: "Senior Developer",
+    name: "Ryan Lenahan ",
+    title: "Senior Planner At L' Oreal",
     img:
-      "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://i.imgur.com/aXiWheY.jpg",
     icon: "assets/twitter.png",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      "Justin White is an exceptional website developer with a keen eye for detail and creativity. Working with him was a seamless experience from start to finish. He actively listened to my requirements and delivered a website that exceeded my expectations. Justin's technical expertise is impressive, and he efficiently implemented modern design elements and responsive features. Communication was prompt and professional throughout the project, making the collaboration truly enjoyable."
   },
   {
     id: 2,
-    name: "Alex Kalinski",
-    title: "Co-Founder of DELKA",
+    name: "Amanda Rodriguez",
+    title: "Professional Educator",
     img:
-      "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://i.imgur.com/RhU3xKt.jpg",
     icon: "assets/youtube.png",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      "Working with Justin on my new website has been a joy. He brought my vision to life with a colorful and user-friendly design. I appreciated his patience and responsiveness throughout the process. Thanks to the website, I now have an engaging platform to connect with students and parents, making communication a breeze. I wholeheartedly recommend Justin for his technical expertise and understanding of educators' needs. He's made a significant impact on my teaching journey!",
     featured: true,
   },
   {
     id: 3,
-    name: "Martin Harold",
-    title: "CEO of ALBI",
+    name: "Daphne Duran & Jocelyn Padilla",
+    title: "CEOS of Juvenescence",
     img:
-      "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://i.imgur.com/WiSUgmu.png",
     icon: "assets/linkedin.png",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      "Working with Justin has been a game-changer for our Juvenescence Aesthetics. His expertise and creativity have transformed my online presence, making it easy for potential clients to learn about my services, book appointments! Justin's dedication and attention to detail are truly commendable. Thanks to his work, I've been able to reach a wider audience and grow my business. I highly recommend Justin for any healthcare professional looking to enhance their online presence.",
   },
 ];
   return (
@@ -51,7 +51,7 @@ export default function Testimonials() {
               alt=""/>
             </div>
             <div className="center">
-              {d.desc}
+              <div className='description'>{d.desc}</div>
             </div>
             <div className="bottom">
               <h3>{d.name}</h3>
