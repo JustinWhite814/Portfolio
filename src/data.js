@@ -148,13 +148,13 @@ export const designPortfolio = [
     id: 5,
     title: "Design Keser Web Design",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 6,
     title: "Design Banking App",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
 ];
 
@@ -163,36 +163,36 @@ export const contentPortfolio = [
     id: 1,
     title: "Content Social Media App",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 2,
     title: "Content Rampa UI Design",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 3,
     title: "Content E-commerce Web Design",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 4,
     title: "Content Relax Mobile App",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 5,
     title: "Content Keser Web Design",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
   {
     id: 6,
     title: "Content Banking App",
     img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://i.imgur.com/Nm9Z9DP.jpg",
   },
 ];
