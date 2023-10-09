@@ -12,7 +12,10 @@
   .left{
     flex: 0.5;
     overflow: hidden;
-    margin-top: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 19rem;
     @include mobile {
       margin: 10px auto;
       padding: 0;
@@ -33,14 +36,21 @@
       }
     }
     img{
-      height: 20rem;
+      max-width: 70%; /* Ensure the image does not exceed its container width */
+      max-height: 50%; /* Ensure the image does not exceed its container height */
+      width:  auto; /* Allow the width to scale automatically */
+      height: auto; /* Allow the height to scale automatically */
       border-radius: 50%;
-      width: 18rem;
+      // height: 30rem;
+      // width: 28rem;
+      border-radius: 50%;
       // padding-bottom: 10%
       @include mobile{
         // height: 10rem;
         // width: 9rem;
-        display: flex;
+        // display: flex;
+        max-width: 40%;
+        max-height: 70%;
       }
     };
   }
@@ -58,6 +68,7 @@
       
       @include mobile {
         padding-left: 0;
+        justify-content: center;
         align-items: center;
       }
 
@@ -71,6 +82,10 @@
 
       h2{
         font-size: 30px;
+        @include mobile {
+          display: flex;
+          text-align: center;
+        }
       }
       
       h3{
@@ -111,7 +126,7 @@
         width: 35px;
         @include mobile {
           padding-top: 10px;
-          width: 30px;
+          width: 20px;
         }
       }
     }
@@ -127,6 +142,9 @@
         100%{
           opacity: 0;
         }
+      }
+      @include mobile {
+        display: none;
       }
     }
   }
