@@ -63,15 +63,15 @@
             height: 25px;
           }
           &.user{
-            height: 60px;
-            width: 60px;
+            height: 80%;
+            width: 80px;
             border-radius: 50%;
             object-fit: cover;
             margin: 0 30px;
 
             @include mobile {
-              width: 30px;
-              height: 30px;
+              width: 40px;
+              height: 40px;
             }
           }
         }

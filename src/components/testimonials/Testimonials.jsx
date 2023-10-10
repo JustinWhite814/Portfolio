@@ -6,7 +6,7 @@ export default function Testimonials() {
     name: "Ryan Lenahan ",
     title: "Senior Planner At L' Oreal",
     img:
-      "https://i.imgur.com/aXiWheY.jpg",
+      "https://i.imgur.com/jivSvM3.jpg",
     icon: "assets/twitter.png",
     desc:
       "Justin White is an exceptional website developer with a keen eye for detail and creativity. Working with him was a seamless experience from start to finish. He actively listened to my requirements and delivered a website that exceeded my expectations. Justin's technical expertise is impressive, and he efficiently implemented modern design elements and responsive features. Communication was prompt and professional throughout the project, making the collaboration truly enjoyable."
@@ -40,15 +40,15 @@ export default function Testimonials() {
           {data.map((d => 
           <div key = {d.id} className={d.featured ? "card featured" : 'card'}>
             <div className="top">
-              <img src="assets/right-arrow.png" alt="" className='left' />
+              {/* <img src="assets/right-arrow.png" alt="" className='left' /> */}
               <img
                className='user'
                src={d.img}
                alt=""/>
-              <img
+              {/* <img
               className='right'
               src={d.icon}
-              alt=""/>
+              alt=""/> */}
             </div>
             <div className="center">
               <div className='description'>{d.desc}</div>
