@@ -35,13 +35,15 @@
       }
     }
     img{
-      max-width: 70%; /* Ensure the image does not exceed its container width */
-      max-height: 50%; /* Ensure the image does not exceed its container height */
+      margin-left: 250px;
+      max-width: 50%; /* Ensure the image does not exceed its container width */
+      max-height: 30%; /* Ensure the image does not exceed its container height */
       width:  auto; /* Allow the width to scale automatically */
       height: auto; /* Allow the height to scale automatically */
       border-radius: 50%;
       border-radius: 50%;
       @include mobile{
+        margin: 0;
         max-width: 40%;
         max-height: 70%;
       }
@@ -89,10 +91,13 @@
 
         span{
          font-size: inherit;
-         background: -webkit-linear-gradient( black, black, white);
+         background: -webkit-linear-gradient( black, rgb(2, 2, 70) , black);
          -webkit-background-clip: text;
          background-clip: text;
          -webkit-text-fill-color: transparent;
+         @include mobile {
+          text-align: center;
+         }
         }
         .ityped-cursor{
           animation: blink 1s infinite;
@@ -109,6 +114,7 @@
       .iconContainer {
         padding-top: 10px;
         @include mobile {
+          display: none;
           margin: 0 auto;
         }
       }

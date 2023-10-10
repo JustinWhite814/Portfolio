@@ -1,9 +1,11 @@
 import React from 'react'
 import './menu.scss'
 export default function Menu({menuOpen,setMenuOpen}) {
+  const isMobilieScreen = () => window.innerWidth <= 768;
+
   return (
     <div className={'menu '+ (menuOpen && 'active')}>
-      <ul>
+      <ul >
         <li onClick={()=>setMenuOpen(false)}> 
           <a href='#intro'>Home</a>
         </li>
@@ -19,6 +21,11 @@ export default function Menu({menuOpen,setMenuOpen}) {
         <li onClick={()=>setMenuOpen(false)}> 
           <a href='#contact'>Contact</a>
         </li>
+        {isMobilieScreen() && (
+          <li onClick={()=>setMenuOpen(false)}> 
+          <a className='onmobile' href='#socials'>Socials</a>
+        </li>
+        )}
       </ul>
     </div>
   )

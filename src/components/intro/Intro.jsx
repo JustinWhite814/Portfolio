@@ -9,7 +9,7 @@ export default function Intro() {
        showCursor: true,
        backDelay: 1500,
        backSpeed: 60,
-       strings: ['Web Developer','Problem Solver','Innovator' ] })
+       strings: ['Web Developer','Problem Solver','Innovator', 'Musician', 'Creative', 'Mentor' ] })
   },[]) 
   
   return (
@@ -21,7 +21,7 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className='wrapper'>
-          <h2>Hello there, My name is</h2>
+          <h2>Hi! I'm</h2>
           <h1>Justin</h1>
           <h3><span ref={textRef}></span></h3>
           <div className='iconContainer' >

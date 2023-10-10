@@ -39,8 +39,7 @@ export default function Contact() {
       </div>
     </form>
    
-
-      {/* <h2>Contact.</h2>
+    {/* <h2>Contact.</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder='Email' />
         <textarea placeholder='message'></textarea>

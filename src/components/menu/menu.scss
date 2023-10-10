@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  background-color: $mainColor;
   
   &.active{
     right: 0;
@@ -34,7 +35,7 @@
       }
       &:hover{
         font-weight: 500;
-      }
+      } 
     }
   }
 }
