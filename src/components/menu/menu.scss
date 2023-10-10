@@ -26,12 +26,16 @@
     color: white;
     //sets the width of the li so that it doesn't expand on hover
     width: 60%;
+    
     li{
       margin-bottom: 25px;
       a{
         font-size: inherit;
         color: inherit;
         text-decoration: none;
+        @include mobile {
+          font-size: 18px;
+        }
       }
       &:hover{
         font-weight: 500;
