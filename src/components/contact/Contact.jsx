@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './contact.scss'
 import { useForm, ValidationError } from '@formspree/react';
 export default function Contact() {
