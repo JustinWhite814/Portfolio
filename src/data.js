@@ -65,19 +65,20 @@ export const webPortfolio = [
   {
     id: 4,
     title: "SASS Calculator",
-    img: "https://i.imgur.com/Nm9Z9DP.jpg",
-    link: ''
+    img: "https://i.imgur.com/O4SHnBN.png",
+    link: 'https://github.com/JustinWhite814/sassCalculator'
   },
   {
     id: 5,
     title: "Furever Friends",
     img: "https://i.imgur.com/gDFixVT.png",
-    link: 'https://furever-friends-2d707ac1f3f7.herokuapp.com/'
+    link: 'https://github.com/JustinWhite814/furever-friends-1.0'
   },
   {
     id: 6,
     title: "Aesthetic Domain",
-    img: "https://i.imgur.com/Nm9Z9DP.jpg",
+    img: "https://i.imgur.com/nuPBOo7.png",
+    link: 'https://github.com/JustinWhite814/Aesthetic-Domain/'
   },
 ];
 
@@ -86,7 +87,8 @@ export const mobilePortfolio = [
     id: 1,
     title: "Pokedex v1",
     img:
-      "https://i.imgur.com/Nm9Z9DP.jpg",
+      "https://i.imgur.com/3Wd1wMH.png",
+    link: 'https://github.com/JustinWhite814/js-pokedex'
   },
   {
     id: 2,
